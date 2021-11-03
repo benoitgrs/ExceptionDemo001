@@ -76,7 +76,7 @@ namespace ExceptionDemo001
         {
             if(frame is null)
             {
-
+                throw new ArgumentException("parameter cannot be null", "frame");
             }
 
 
